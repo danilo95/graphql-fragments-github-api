@@ -26,8 +26,6 @@ const SearchResults = ({ query }) => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
-  console.log("data.search", data);
-
   return (
     <div className="search-results-container">
       <h2 className="search-results-title">Search Results</h2>
